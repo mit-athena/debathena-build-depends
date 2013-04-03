@@ -2,8 +2,8 @@ Source: debathena-build-depends
 Section: debathena/devel
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, aptitude, dpkg-awk
-Standards-Version: 3.7.2
+Build-Depends: cdbs, debhelper, dh-buildinfo, aptitude, dpkg-awk
+Standards-Version: 3.9.3
 
 Package: debathena-build-depends
 Architecture: all
